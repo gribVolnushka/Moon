@@ -1,0 +1,92 @@
+.hero{
+    min-height: 100vh;
+    background-image: url("../../Image/Eggs.png"),
+                      url("../../Image/cezar.png"),
+                      url("../../Image/giodza.png"),
+                      url("../../Image/hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: top left,
+                        right 179px center,
+                        bottom left,
+                             center;
+    background-size: 403px, 829px,400px, cover;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    padding: 37px 0;
+    color: #0A0B21;
+}
+header > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 5rem;
+    line-height: calc(50 / 59);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.list-hero{
+    display: flex;
+    gap: 50px;
+}
+.list-hero li{
+    font-size: 1.8rem;
+    line-height: calc(21 / 18);
+    font-weight: 700;
+}
+header button{
+    padding: 12px 35px;
+    min-width: 120px;
+    font-size: 1.8rem;
+    line-height: calc(21 / 18);
+    font-weight: 700;
+    border: 1px solid #FFBE00;
+    border-radius: 20px;
+}
+.content-header{
+    padding: 50px 0;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text-hero{
+    width: 465px;
+}
+h1{
+    font-weight: 700;
+    font-size: 6rem;
+    line-height: calc(70 / 60);
+    margin-bottom: 30px;
+}
+h1 span{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 2rem;
+    line-height: calc(23 / 20);
+    font-weight: 500;
+    letter-spacing: 0.2em;
+}
+.text-hero p{
+    color: #52575C;
+    font-size: 1.6rem;
+    line-height: calc(28 / 16);
+    margin-bottom: 50px;
+}
+.text-hero button{
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: calc(19 / 16);
+    color: #FFFFFF;
+    background-color: #FFBE00;
+    padding: 12px 35px;
+    min-width: 179px;
+}
+
+
+
+
+

@@ -79,6 +79,13 @@ textarea {
     vertical-align: top;
     resize: vertical;
 }
+a,
+button{
+    text-decoration: none;
+    color: inherit;
+    border: 0;
+    background-color: transparent;
+}
 
 /**
  * Correct `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
