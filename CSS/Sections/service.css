@@ -1,0 +1,63 @@
+.service{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.text-service{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.service h2{
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: calc(47 / 40);
+    color: #0A0B21;
+    text-align: center;
+}
+.service h2 span{
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: calc(23 / 20);
+    text-align: center;
+    letter-spacing: 0.2em;
+    color: #0A0B21;
+    display: block;
+}
+.text-service p{
+    align-self: center;
+    font-size: 1.6rem;
+    line-height: calc(28 / 16);
+    color: #52575C;
+    text-align: center;
+    width: 463px;
+}
+.list-service{
+    display: flex;
+    gap: 40px;
+}
+.list-service li{
+    width: 360px;
+    padding: 40px 30px;
+    background-color: #FFFFFF;
+}
+.list-service img{
+    width: 60px;
+    position: relative;
+    left: 120px;
+    margin-bottom: 40px;
+}
+.list-service h3{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: calc(28 / 30);
+    color: #0A0B21;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.list-service p{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: calc(28 / 16);
+    text-align: center;
+    color: #52575C;
+}
