@@ -17,19 +17,7 @@
     flex-shrink: 0;
 }
 .text-about h2{
-    font-weight: 700;
-    font-size: 4rem;
-    line-height: calc(47 / 40);
-    color: #0A0B21;
     margin-bottom: 30px;
-}
-.text-about h2 span{
-    display: block;
-    margin-bottom: 5px;
-    font-size: 2rem;
-    line-height: calc(23 / 20);
-    font-weight: 500;
-    letter-spacing: 0.2em;
 }
 .text-about p{
     font-size: 1.6rem;

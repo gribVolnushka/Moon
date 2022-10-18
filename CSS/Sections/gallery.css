@@ -3,20 +3,7 @@
     padding-bottom: 80px;
 }
 .gallery h2{
-    font-weight: 700;
-    font-size: 4rem;
-    line-height: calc(47 / 40);
-    color: #0A0B21;
     margin-bottom: 35px;
-}
-.gallery h2 span{
-    font-weight: 500;
-    font-size: 2rem;
-    line-height: calc(23 / 20);
-    letter-spacing: 0.2em;
-    color: #0A0B21;
-    display: block;
-    margin-bottom: 5px;
 }
 .list-gallery{
     display: flex;
@@ -48,13 +35,14 @@
     grid-column-start: 3;
     grid-column-end: 5;
 }
-.push{
+.gallery button{
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    gap: 13px;
 }
  button{
-    padding: 12px 50px;
+    padding: 12px 40px;
     min-width: 179px;
     background-color: #FFBE00;
     color: #FFFFFF;

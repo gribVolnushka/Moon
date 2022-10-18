@@ -8,20 +8,7 @@
     gap: 30px;
 }
 .service h2{
-    font-weight: 700;
-    font-size: 4rem;
-    line-height: calc(47 / 40);
-    color: #0A0B21;
     text-align: center;
-}
-.service h2 span{
-    font-weight: 500;
-    font-size: 2rem;
-    line-height: calc(23 / 20);
-    text-align: center;
-    letter-spacing: 0.2em;
-    color: #0A0B21;
-    display: block;
 }
 .text-service p{
     align-self: center;
