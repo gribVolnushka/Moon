@@ -1,25 +1,29 @@
 * {
     box-sizing: border-box;
 }
-html{
+
+html {
     font-size: 10px;
 }
 
 body {
     font-family: Roboto, sans-serif;
 }
-.container{
+
+.container {
     width: 1160px;
     margin-left: auto;
     margin-right: auto;
 }
-h2{
+
+h2 {
     font-weight: 700;
     font-size: 4rem;
     line-height: calc(47 / 40);
     color: #0A0B21;
 }
-h2 span{
+
+h2 span {
     display: block;
     margin-bottom: 5px;
     font-weight: 500;

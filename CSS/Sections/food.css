@@ -1,26 +1,31 @@
-.food{
+.food {
     width: 100%;
     padding-top: 80px;
     padding-bottom: 80px;
 }
-.food h2{
+
+.food h2 {
     text-align: center;
     margin-bottom: 60px;
 }
-.list-food{
+
+.list-food {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 40px;
 }
-.list-food li{
+
+.list-food li {
     width: 360px;
     position: relative;
 }
-.list-food li > img{
+
+.list-food li > img {
     width: 100%;
     height: 460px;
 }
-.text-list{
+
+.text-list {
     padding: 25px 30px;
     display: flex;
     justify-content: space-between;
@@ -31,17 +36,20 @@
     z-index: 1;
     width: 100%;
 }
-.title-dish{
+
+.title-dish {
     flex-grow: 1;
 }
-.title-dish h3{
+
+.title-dish h3 {
     font-weight: 700;
     font-size: 2rem;
     line-height: calc(23 / 20);
     color: #000000;
     margin-bottom: 10px;
 }
-.text-list p{
+
+.text-list p {
     font-weight: 700;
     font-size: 3rem;
     line-height: calc(35 / 30);

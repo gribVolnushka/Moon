@@ -1,16 +1,19 @@
-.service{
+.service {
     padding-top: 80px;
     padding-bottom: 80px;
 }
-.text-service{
+
+.text-service {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
-.service h2{
+
+.service h2 {
     text-align: center;
 }
-.text-service p{
+
+.text-service p {
     align-self: center;
     font-size: 1.6rem;
     line-height: calc(28 / 16);
@@ -18,22 +21,26 @@
     text-align: center;
     width: 463px;
 }
-.list-service{
+
+.list-service {
     display: flex;
     gap: 40px;
 }
-.list-service li{
+
+.list-service li {
     width: 360px;
     padding: 40px 30px;
     background-color: #FFFFFF;
 }
-.list-service img{
+
+.list-service img {
     width: 60px;
     position: relative;
     left: 120px;
     margin-bottom: 40px;
 }
-.list-service h3{
+
+.list-service h3 {
     font-weight: 700;
     font-size: 3rem;
     line-height: calc(28 / 30);
@@ -41,7 +48,8 @@
     margin-bottom: 20px;
     text-align: center;
 }
-.list-service p{
+
+.list-service p {
     font-weight: 400;
     font-size: 1.6rem;
     line-height: calc(28 / 16);

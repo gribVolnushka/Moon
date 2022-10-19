@@ -1,31 +1,36 @@
-.about{
+.about {
     padding-top: 157px;
     padding-bottom: 80px;
     background-image: url("../../Image/Stripes.png");
     background-position: top 115px left;
-    background-size: 178px ;
+    background-size: 178px;
     background-repeat: no-repeat;
 }
-.about-container{
+
+.about-container {
     display: flex;
     align-items: center;
     gap: 43px;
-    margin-left: calc((100% - 1160px)/2 );
+    margin-left: calc((100% - 1160px) / 2);
 }
-.text-about{
+
+.text-about {
     width: 463px;
     flex-shrink: 0;
 }
-.text-about h2{
+
+.text-about h2 {
     margin-bottom: 30px;
 }
-.text-about p{
+
+.text-about p {
     font-size: 1.6rem;
     line-height: calc(28 / 16);
     color: #52575C;
     margin-bottom: 50px;
 }
-.text-about button{
+
+.text-about button {
     font-weight: 700;
     font-size: 1.6rem;
     line-height: calc(19 / 16);
@@ -34,15 +39,18 @@
     padding: 12px 35px;
     min-width: 179px;
 }
-.image-about{
+
+.image-about {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 32px;
 }
-.image-about img{
+
+.image-about img {
     width: 100%;
 }
-.image-about img:last-child{
+
+.image-about img:last-child {
     grid-row-start: 1;
     grid-row-end: 3;
     grid-column-start: 2;
