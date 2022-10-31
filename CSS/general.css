@@ -16,14 +16,14 @@ body {
     margin-right: auto;
 }
 
-h2 {
+.title-2 {
     font-weight: 700;
     font-size: 4rem;
     line-height: calc(47 / 40);
     color: #0A0B21;
 }
 
-h2 span {
+.subtitle {
     display: block;
     margin-bottom: 5px;
     font-weight: 500;

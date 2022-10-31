@@ -3,12 +3,12 @@
     padding-bottom: 160px;
 }
 
-.reviews h2 {
+.reviews__title {
     text-align: center;
     margin-bottom: 60px;
 }
 
-.reviews h2 span::before {
+.subtitle::before {
     content: " ";
     display: inline-block;
     width: 25px;
@@ -18,7 +18,7 @@
     margin-right: 35px;
 }
 
-.reviews h2 span::after {
+.subtitle::after {
     content: " ";
     display: inline-block;
     width: 25px;
@@ -28,19 +28,21 @@
     margin-left: 35px;
 }
 
-.content-reviews {
+.reviews__content {
     display: flex;
     align-items: center;
     gap: 75px;
 }
 
-.prev {
+.reviews__wrapper-switch {
     display: flex;
     align-items: center;
     gap: 13px;
+    box-shadow: 0 6px 8px rgba(39, 59, 109, 0.1);
+    padding: 41px 20px;
 }
 
-.prev {
+.reviews__abbr {
     font-weight: 700;
     font-size: 1.6rem;
     line-height: calc(19 / 16);
@@ -48,18 +50,23 @@
     background-color: #FFFFFF;
 }
 
-.content-reviews > img {
+.reviews__content{
+    display: flex;
+    align-items: center;
+}
+
+.reviews__image {
     width: 400px;
 }
 
-.text-previews blockquote {
+.reviews__quote {
     font-size: 16px;
     line-height: 32px;
     color: #52575C;
     margin-bottom: 25px;
 }
 
-.text-previews p {
+.reviews__name {
     font-weight: 700;
     font-size: 2rem;
     line-height: calc(23 / 20);
@@ -67,23 +74,24 @@
     margin-bottom: 10px;
 }
 
-.text-previews p:last-child {
+.reviews__mean {
     font-size: 14px;
     line-height: 16px;
     color: #25282B;
     margin-bottom: 0;
 }
 
-.press-reviews {
+.reviews__wrapper-button {
     display: flex;
     align-items: center;
     gap: 13px;
 }
 
-.reviews button {
+.reviews__button {
     min-width: 100px;
     padding: 40px 18px;
     background-color: #FFBE00;
+    color: #FFFFFF;
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;

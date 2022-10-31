@@ -4,28 +4,34 @@
     padding-bottom: 80px;
 }
 
-.food h2 {
+.food__title {
     text-align: center;
     margin-bottom: 60px;
 }
 
-.list-food {
+.food__list {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 40px;
 }
 
-.list-food li {
-    width: 360px;
+.food__item {
+    height: 1px;
     position: relative;
+    padding-bottom: 127.7%;
 }
 
-.list-food li > img {
+.food__main-image {
     width: 100%;
-    height: 460px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
 }
 
-.text-list {
+.food__wrapper-list {
     padding: 25px 30px;
     display: flex;
     justify-content: space-between;
@@ -37,11 +43,11 @@
     width: 100%;
 }
 
-.title-dish {
+.food__content-list {
     flex-grow: 1;
 }
 
-.title-dish h3 {
+.food__subtitle {
     font-weight: 700;
     font-size: 2rem;
     line-height: calc(23 / 20);
@@ -49,7 +55,7 @@
     margin-bottom: 10px;
 }
 
-.text-list p {
+.food__text {
     font-weight: 700;
     font-size: 3rem;
     line-height: calc(35 / 30);

@@ -14,12 +14,12 @@
     flex-direction: column;
 }
 
-header {
+.header {
     padding: 37px 0;
     color: #0A0B21;
 }
 
-header > div {
+.header__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,18 +32,18 @@ header > div {
     text-transform: uppercase;
 }
 
-.list-hero {
+.header__list {
     display: flex;
     gap: 50px;
 }
 
-.list-hero li {
+.header__item {
     font-size: 1.8rem;
     line-height: calc(21 / 18);
     font-weight: 700;
 }
 
-header button {
+.header__button {
     padding: 12px 35px;
     min-width: 120px;
     font-size: 1.8rem;
@@ -53,7 +53,7 @@ header button {
     border-radius: 20px;
 }
 
-.content-header {
+.wrapper-hero {
     padding: 50px 0;
     flex-grow: 1;
     display: flex;
@@ -61,18 +61,18 @@ header button {
     justify-content: center;
 }
 
-.text-hero {
+.wrapper-hero__content {
     width: 465px;
 }
 
-h1 {
+.wrapper-hero__title {
     font-weight: 700;
     font-size: 6rem;
     line-height: calc(70 / 60);
     margin-bottom: 30px;
 }
 
-h1 span {
+.wrapper-hero__subtitle {
     display: block;
     margin-bottom: 5px;
     font-size: 2rem;
@@ -81,14 +81,14 @@ h1 span {
     letter-spacing: 0.2em;
 }
 
-.text-hero p {
+.wrapper-hero__text {
     color: #52575C;
     font-size: 1.6rem;
     line-height: calc(28 / 16);
     margin-bottom: 50px;
 }
 
-.text-hero button {
+.wrapper-hero__button {
     font-weight: 700;
     font-size: 1.6rem;
     line-height: calc(19 / 16);

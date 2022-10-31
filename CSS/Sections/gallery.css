@@ -3,24 +3,31 @@
     padding-bottom: 80px;
 }
 
-.gallery h2 {
+.gallery__title {
     margin-bottom: 35px;
 }
 
-.list-gallery {
+.gallery__list {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 143px;
 }
 
-.list-gallery li {
+.gallery__item {
     font-size: 2rem;
     line-height: calc(23 / 20);
     color: #000000;
     margin-bottom: 50px;
+    transition: all 0.3s;
 }
 
-.image-gallery {
+.gallery__item:active {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #FFBE00;
+}
+
+.gallery__images {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 40px;
@@ -42,12 +49,12 @@
     grid-column-end: 5;
 }
 
-.push {
+.gallery__wrapper-button {
     display: flex;
     justify-content: flex-end;
 }
 
-button {
+.gallery__button {
     display: flex;
     gap: 13px;
     align-items: center;
